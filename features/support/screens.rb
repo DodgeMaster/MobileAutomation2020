@@ -8,4 +8,7 @@ class Screens
     @registration_screen = RegistrationScreen.new
   end
 
+  def wishlist
+    @wishlist = Wishlist.new
+  end
 end

@@ -17,6 +17,8 @@ class RegistrationScreen
     @eye_icons.click_every_element_in_the_list
   end
 
+
+
   def verify_welcome_message(name)
     actual = @welcome_message.get_text
     expected = "Welcome, #{name}"
